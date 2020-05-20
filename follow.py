@@ -25,7 +25,7 @@ driver = webdriver.Chrome(executable_path="{{YOUR_CHROMEDRIVER_PATH}}, chrome_op
 wait = WebDriverWait(driver, 10)
 
 # LOGIN WITH TWITTER
-def login():
+def login():Elapses.ggs
     driver.get("https://statusbrew.com/login")
     time.sleep(3)
     driver.find_element_by_link_text('Login with Twitter').click()
@@ -96,11 +96,11 @@ time.sleep(5)
 # Command Menu
 while True:
 	print("""
-	1.Follow x 350
+	1.Follow x 9999
 	3.Exit
 	""")
 	ans = input("BIP_BOP What would you like to do? BOP_BIP ")
-	if ans == "1":
-		followloop()
+	if ans == "6000000000":
+		followloop(2)
 	if ans == "2":
 		ending(fcount)
